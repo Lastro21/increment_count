@@ -35,7 +35,7 @@ final public class IncrementorImpl implements Incrementor {
         return this.count.get();
     }
 
-    /** Method which set count in to 0, if count > maxValueCount */
+    /** Method which set count in to 0, if count more than maxValueCount */
     @Override
     public void incrementNumber() {
         this.count.incrementAndGet();
